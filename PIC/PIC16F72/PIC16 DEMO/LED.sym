@@ -1,0 +1,130 @@
+__S0 800 0 ABS
+__S1 45 0 ABS
+__Hintentry 0 0 CODE
+__Lintentry 0 0 CODE
+_main 7CB 0 CODE
+btemp 7E 0 ABS
+_exit 0 0 CODE
+start 0 0 CODE
+_TRISB 86 0 ABS
+_TRISC 87 0 ABS
+reset_vec 0 0 CODE
+_PORTB 6 0 ABS
+wtemp0 7E 0 ABS
+__Hconfig 0 0 CONFIG
+__Lconfig 0 0 CONFIG
+__Hram 0 0 ABS
+__Lram 0 0 ABS
+?_main 40 0 COMMON
+__Hfunctab 0 0 CODE
+__Lfunctab 0 0 CODE
+__Hcommon 0 0 ABS
+__Lcommon 0 0 ABS
+__Heeprom_data 0 0 EEDATA
+__Leeprom_data 0 0 EEDATA
+_delay_ms 7B7 0 CODE
+__Habs1 0 0 ABS
+__Labs1 0 0 ABS
+__Hsfr0 0 0 ABS
+__Lsfr0 0 0 ABS
+__Hsfr1 0 0 ABS
+__Lsfr1 0 0 ABS
+__Hsfr2 0 0 ABS
+__Lsfr2 0 0 ABS
+__Hsfr3 0 0 ABS
+__Lsfr3 0 0 ABS
+delay_ms@x 44 0 COMMON
+delay_ms@y 42 0 COMMON
+delay_ms@z 40 0 COMMON
+__Hcode 0 0 ABS
+__Lcode 0 0 ABS
+??_main 45 0 COMMON
+__Hinit 0 0 CODE
+__Linit 0 0 CODE
+__end_of_main 800 0 CODE
+__Htext 0 0 ABS
+__Ltext 0 0 ABS
+end_of_initialization 7B5 0 CODE
+?_delay_ms 40 0 COMMON
+__Hstrings 0 0 ABS
+__Lstrings 0 0 ABS
+__Hbank0 0 0 ABS
+__Lbank0 0 0 ABS
+__Hbank1 0 0 ABS
+__Lbank1 0 0 ABS
+__Hbank2 0 0 BANK2
+__Lbank2 0 0 BANK2
+__Hbank3 0 0 BANK3
+__Lbank3 0 0 BANK3
+__Hpowerup 0 0 CODE
+__Lpowerup 0 0 CODE
+__Hclrtext 0 0 ABS
+__Lclrtext 0 0 ABS
+__Hidloc 0 0 IDLOC
+__Lidloc 0 0 IDLOC
+__size_of_delay_ms 0 0 ABS
+__Hcinit 0 0 ABS
+__Lcinit 0 0 ABS
+__size_of_main 0 0 ABS
+__Hpa_nodes 0 0 ABS
+__Lpa_nodes 0 0 ABS
+__ptext20 7B7 0 CODE
+__ptext21 0 0 CODE
+??_delay_ms 42 0 COMMON
+__Hend_init 1 0 CODE
+__Lend_init 0 0 CODE
+__end_of_delay_ms 7CB 0 CODE
+__Hreset_vec 0 0 CODE
+__Lreset_vec 0 0 CODE
+intlevel0 0 0 CODE
+intlevel1 0 0 CODE
+intlevel2 0 0 CODE
+intlevel3 0 0 CODE
+intlevel4 0 0 CODE
+intlevel5 0 0 CODE
+__HcstackCOMMON 0 0 ABS
+__LcstackCOMMON 0 0 ABS
+__pcstackCOMMON 40 0 COMMON
+start_initialization 7B5 0 CODE
+__Hmaintext 0 0 ABS
+__Lmaintext 0 0 ABS
+__pmaintext 7CB 0 CODE
+%segments
+reset_vec 0 1 CODE 0
+cstackCOMMON 40 44 COMMON 40
+maintext F96 FFF CODE F96
+text20 F6E F95 CODE F6E
+cinit F6A F6D CODE F6A
+%locals
+startup.obj
+startup.as
+65 0 0 CODE
+LED.obj
+D:\PIC16F72\PIC16 DEMO\main.c
+15 7CB 0 CODE
+16 7CD 0 CODE
+19 7CE 0 CODE
+20 7D1 0 CODE
+21 7D5 0 CODE
+22 7D7 0 CODE
+23 7DB 0 CODE
+24 7DD 0 CODE
+25 7E1 0 CODE
+26 7E3 0 CODE
+27 7E7 0 CODE
+28 7E9 0 CODE
+29 7ED 0 CODE
+30 7EF 0 CODE
+31 7F3 0 CODE
+32 7F5 0 CODE
+33 7F9 0 CODE
+34 7FB 0 CODE
+36 800 0 CODE
+LED.as
+65 7B5 0 CODE
+66 7B6 0 CODE
+D:\PIC16F72\PIC16 DEMO\main.c
+9 7B7 0 CODE
+10 7B9 0 CODE
+9 7C8 0 CODE
+11 7CB 0 CODE

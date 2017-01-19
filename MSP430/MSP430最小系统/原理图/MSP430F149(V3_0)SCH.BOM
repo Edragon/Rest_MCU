@@ -1,0 +1,25 @@
+Bill of Material for MSP430F149(V3_0)SCH.SCHDOC
+On 2010/6/14 at 20:40:11
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+                     0805             1    Test                                              
+                     HDR1X2           2    JP1, JP2                     Header, 2-Pin        
+                     HDR1X3           1    Ref                          Header, 3-Pin        
+                     HEAD6            1    Pwr                          Header, 3-Pin, Dual row, Right Angle 
+                     HEAD8            6    P1, P2, P3, P4, P5, P6       8 Pin Header         
+                     IDC14            1    JTAG                                              
+                     Key              1    Reset                                             
+                     miniUSB          1    USB                                               
+                     SMD _LED         2    D1, D2                       Typical BLUE SiC LED 
+                     SW               1    Power                                             
+ 0¦¸                 0805             4    R4, R5, R7, R8                                    
+ 104                 0805             6    C3, C4, C5, C6, C9, C11      Capacitor            
+ 10K                 0805             1    R1                                                
+ 10uF/16V            1206             4    C1, C2, C10, C12             Polarized Capacitor (Radial) 
+ 22pF                0805             2    C7, C8                       Capacitor            
+ 32.768KHz           XTAL100          1    Y2                           Crystal              
+ 330~1K              0805             2    R2, R3                                            
+ 8MHz                XTAL200          1    Y1                           Crystal              
+ AMS1117-3.3V        SOT223           1    U2                                                
+ MSP430F149IPM       PM               1    U1                           MSP430F149IPM        

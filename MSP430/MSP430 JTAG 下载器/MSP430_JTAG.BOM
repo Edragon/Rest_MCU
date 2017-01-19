@@ -1,0 +1,14 @@
+Bill of Material for MSP430_JTAG2.SCHDOC
+On 2010/6/11 at 18:21:49
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+ 104                 0805             1    C1                           Capacitor            
+ 10uF/10V            1206             1    C2                           Polarized Capacitor (Axial) 
+ 74HC244D            SOP-20           1    U1                                                
+ D Connector 25      DB25             1    J1                           Receptacle Assembly, 25 Position, Right Angle 
+ JTAG                HEAD-14          1    P1                           Header, 7-Pin, Dual row 
+ LED3                3mmLED           1    DS1                          Typical BLUE SiC LED 
+ RES                 0805            18    R1, R2, R3, R4, R5, R6, R7                        
+                                           R8, R9, R10, R11, R12, R13
+                                           R14, R15, R16, R17, R18

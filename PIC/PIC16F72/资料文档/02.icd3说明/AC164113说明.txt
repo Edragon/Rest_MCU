@@ -1,0 +1,13 @@
+使用随机提供的ICD3测试接口板，以验证MPLAB ICD 3是否正常工作：
+
+1.用RJ11线连接ICD 3测试接口板连接到调试器使用。
+
+2.在MPLAB IDE的Programmer菜单下确保选择的调试器或MPLAB ICD3。
+
+3.从该菜单中，选择“setting”，“status”选项卡，然后单击"RUN ICD 3
+  Test Interface。显示在输出窗口中的状态（通过/失败）。
+  如果一个通道的信息显示，MPLAB ICD 3的正常运行。
+
+
+
+注：具体操作见DS-ICD3.PDF文档。

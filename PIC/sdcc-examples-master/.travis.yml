@@ -1,0 +1,35 @@
+language: c
+
+env:
+  - SDCC_VERSION=3.4.0 GPUTILS_VERSION=1.4.0
+  - SDCC_VERSION=3.4.0 GPUTILS_VERSION=1.4.2
+  - SDCC_VERSION=3.5.0 GPUTILS_VERSION=1.4.0
+  - SDCC_VERSION=3.5.0 GPUTILS_VERSION=1.4.2
+  - SDCC_VERSION=3.6.0 GPUTILS_VERSION=1.4.0
+  - SDCC_VERSION=3.6.0 GPUTILS_VERSION=1.4.2
+
+before_install:
+ # Install packages required for gputils and/or SDCC compilation
+ - sudo apt-get update
+ - sudo apt-get -y install bison flex g++ libboost-dev texinfo
+
+install:
+ # Download, compile and install gputils
+ - cd
+ - wget --no-verbose https://downloads.sourceforge.net/project/gputils/gputils/${GPUTILS_VERSION}/gputils-${GPUTILS_VERSION}-1.tar.gz
+ - tar -xzf gputils-${GPUTILS_VERSION}-1.tar.gz
+ - cd gputils-${GPUTILS_VERSION}*
+ - ./configure && make -s && sudo make -s install
+
+ # Download, compile and install SDCC
+ - cd
+ - wget --no-verbose http://downloads.sourceforge.net/project/sdcc/sdcc/${SDCC_VERSION}/sdcc-src-${SDCC_VERSION}${SDCC_RC}.tar.bz2
+ - tar -xjf sdcc-src-${SDCC_VERSION}${SDCC_RC}.tar.bz2
+ - cd sdcc-${SDCC_VERSION}${SDCC_RC}/
+ - ./configure && make -s && sudo make -s install
+
+ # Go back to code folder
+ - cd $TRAVIS_BUILD_DIR
+
+# Test is done using test.py
+script: python test.py

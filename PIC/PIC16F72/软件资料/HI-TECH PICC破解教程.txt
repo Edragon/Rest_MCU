@@ -1,0 +1,14 @@
+HI-TECH PICC破解教程
+1.安装HI-TECH C Compiler；
+
+2.安装过程中，提示Select Activate PRO/Standard mode with serial number时，可输入任意5个数字，如88888等，并且把下方勾选框的用邮件激活勾选上；
+
+3.点击NEXT，按照提示完成安装；
+
+4.打开破解软件“HI-TECH C Compiler破解器”，会提示打开激活请求文件:Open activation request file...,
+
+5.点击Open,在上面HI-TECH C Compiler软件的安装路径下找到“HCPIC18P-88888-activation-request.txt”，打开；
+
+6.此时，可看到HI-TECH软件的Activate按键变有效，点击，完成破解。
+
+7.破解成功后可在HI-TECH C Compiler软件的安装路径下看到多了这个文件“HCPIC18P-88888-activation-response.txt”
